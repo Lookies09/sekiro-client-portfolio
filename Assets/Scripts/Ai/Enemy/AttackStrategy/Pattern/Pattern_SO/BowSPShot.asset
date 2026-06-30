@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3e42aec249c834a9d650a057f5430d, type: 3}
+  m_Name: BowSPShot
+  m_EditorClassIdentifier: 
+  attackName: "\uD65C SP "
+  damages: 0000000000000000000000000000000000000000
+  animationNames:
+  - Dodge_B
+  - Bow_SP_Start
+  - Bow_SP_Hold
+  - Bow_SP02
+  - Bow_Unarm
+  animationTimes:
+  - 1
+  - 1
+  - 2
+  - 1.5
+  - 2
+  isReboundableAttack: 0000000000
+  isDefenseableAttack: 0101010101

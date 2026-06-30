@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f0f55d4897a2b4c96552169d0390de, type: 3}
+  m_Name: DmgUpCandy
+  m_EditorClassIdentifier: 
+  itemId: 1003
+  itemName: "\uC544\uACF5\uC758 \uC0AC\uD0D5"
+  description: "\uC120\uBD09\uC0AC\uAC00 \uB9CC\uB4E0 \"\uC544\uACF5\"\uC758 \uAC00\uD638\uB97C
+    \uBC1B\uC740 \uC0AC\uD0D5 \uC77C\uC2DC\uC801\uC73C\uB85C \uACF5\uACA9\uB825\uACFC
+    \uCCB4\uAC04 \uACF5\uACA9\uB825\uC744 \uAC15\uD654\uD55C\uB2E4"
+  itemIcon: {fileID: 21300000, guid: 40643ef2c97b1b5479f64d4d920d6538, type: 3}
+  itemPrice: 0
+  itemCount: 1
+  itemPrefab: {fileID: 0}
+  upValue: 4

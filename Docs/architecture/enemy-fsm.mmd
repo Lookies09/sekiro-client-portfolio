@@ -1,0 +1,20 @@
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> Patrol
+    Idle --> Chase: Detect
+    Patrol --> Chase: Detect
+    Patrol --> Idle
+    Chase --> Attack: In Range
+    Chase --> Return: Out of Range
+    Return --> Chase: Detect
+    Return --> Idle: Reached Origin
+    Attack --> Chase
+    Attack --> Defense
+    Attack --> Rebound
+    Attack --> Hit
+    Defense --> Chase
+    Rebound --> Chase
+    Hit --> Chase
+    Hit --> Broken: Posture Max
+    Broken --> Dead: Execution
+    Dead --> [*]

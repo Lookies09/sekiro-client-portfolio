@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6a520ad2fbfb644bbc21fe0107cfee, type: 3}
+  m_Name: HpPosion
+  m_EditorClassIdentifier: 
+  itemId: 1001
+  itemName: "\uC0C1\uC57D \uD45C\uC8FC\uBC15"
+  description: "HP\uB97C \uD68C\uBCF5\uC2DC\uD0A4\uB294 \uC57D\uC218\uAC00 \uB4E4\uC5B4\uAC04
+    \uD45C\uC8FC\uBC15"
+  itemIcon: {fileID: 21300000, guid: 74a891c80c1d6a2408c8653925d8a0d4, type: 3}
+  itemPrice: 0
+  itemCount: 1
+  itemPrefab: {fileID: 0}
+  upValue: 30

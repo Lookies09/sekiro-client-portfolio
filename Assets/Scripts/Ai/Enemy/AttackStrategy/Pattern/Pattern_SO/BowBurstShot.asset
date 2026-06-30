@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3e42aec249c834a9d650a057f5430d, type: 3}
+  m_Name: BowBurstShot
+  m_EditorClassIdentifier: 
+  attackName: "\uD65C \uBC84\uC2A4\uD2B8\uC0F7"
+  damages: 0000000000000000000000000000000000000000
+  animationNames:
+  - Dodge_B
+  - Bow_SP_Start
+  - Bow_SP_Burst
+  - Bow_SP_End
+  - Bow_Unarm
+  animationTimes:
+  - 1
+  - 1
+  - 0.8
+  - 1
+  - 2
+  isReboundableAttack: 0000000000
+  isDefenseableAttack: 0101010101

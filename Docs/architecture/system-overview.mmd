@@ -1,0 +1,25 @@
+flowchart LR
+    Input["Player Input<br/>Input System"] --> PlayerController["Player Controller"]
+    PlayerController --> Movement["Movement<br/>CharacterController"]
+    PlayerController --> Attack["Attack & Combo"]
+    PlayerController --> Defense["Defense & Parry"]
+    PlayerController --> LockOn["Lock-On System"]
+
+    Attack --> HitDetection["Weapon Trail<br/>Hit Detection"]
+    Defense --> CombatRules["Combat Rules"]
+    HitDetection --> CombatRules
+
+    CombatRules --> Health["IHealth"]
+    CombatRules --> Posture["IPosture"]
+
+    EnemyController["Enemy Controller"] --> EnemyFSM["Enemy FSM"]
+    EnemyFSM --> EnemyMovement["NavMesh Movement"]
+    EnemyFSM --> Pattern["Attack Pattern SO"]
+    Pattern --> HitDetection
+
+    Posture --> Broken["Posture Broken"]
+    Broken --> Execution["Motion Warping<br/>Execution"]
+
+    Health --> UI["HUD / Enemy UI"]
+    Posture --> UI
+    LockOn --> UI
